@@ -1,16 +1,16 @@
-# ✨ Polished Hello World
+# Hello World
 
 A beautiful, modern "Hello World" landing page served via **Cloudflare Workers Assets**. This project demonstrates how to host a static website with a high-performance edge worker.
 
-## 🚀 What's Inside?
+## What's Inside?
 
-- **A Polished UI**: A modern, responsive landing page with glassmorphism, gradients, and animations.
+- **A UI**: A modern, responsive landing page with glassmorphism, gradients, and animations.
 - **Cloudflare Workers**: A high-performance edge worker to handle requests.
 - **Cloudflare Assets**: A modern way to serve static files directly from the Cloudflare edge.
 
 ---
 
-## 🛠️ Prerequisites
+## Prerequisites
 
 Before you start, make sure you have the following installed:
 
@@ -19,7 +19,7 @@ Before you start, make sure you have the following installed:
 
 ---
 
-## 💻 Getting Started
+## Getting Started
 
 ### 1. Clone or Download
 Download this folder to your computer or clone it using Git.
@@ -42,7 +42,7 @@ Once it starts, open your browser and go to: `http://localhost:8787`
 
 ---
 
-## 🌍 Deploying to the Internet
+## Deploying to the Internet
 
 When you are ready to show the world, follow these steps:
 
@@ -62,17 +62,17 @@ npm run deploy
 ```
 
 ### 3. View Your Site
-Once the deployment finishes, Wrangler will print a URL (e.g., `https://my-polished-hello-world.yourname.workers.dev`). **Click it to see your live site!**
+Once the deployment finishes, Wrangler will print a URL (e.g., `https://my-hello-world.yourname.workers.dev`). **Click it to see your live site!**
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 - `assets/` - Where your static files (HTML, CSS, Images) live.
 - `src/index.js` - The logic for your Cloudflare Worker.
 - `wrangler.toml` - The "brain" of your project; it tells Cloudflare how to run your site.
 - `package.json` - Manages your project tools and scripts.
 
-## 📝 License
+## License
 
 MIT

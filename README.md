@@ -86,11 +86,11 @@ You can also define a custom domain directly in your configuration file:
 
 ```toml
 [[routes]]
-pattern = "example.com/*"
+pattern = "example.com"
 custom_domain = true
 ```
 
-*Note: Your domain must already be managed by Cloudflare for these methods to work.*
+*Note: When using `custom_domain = true`, do **not** use wildcards (like `/*`) in the pattern. Your domain must already be managed by Cloudflare for these methods to work.*
 
 ---
 

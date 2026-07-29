@@ -12,10 +12,14 @@ A beautiful, modern "Hello World" landing page served via **Cloudflare Workers A
 
 ## Prerequisites
 
-Before you start, make sure you have the following installed:
+Before you start, make sure you have the following:
 
 1.  **[Node.js](https://nodejs.org/)**: The runtime that allows you to run JavaScript on your computer.
-2.  **A Cloudflare Account**: [Sign up for free here](https://dash.cloudflare.com/sign-up).
+2.  **A Cloudflare Account**:
+    *   Visit the [Cloudflare Sign Up page](https://dash.cloudflare.com/sign-up).
+    *   Enter your email address and create a password.
+    *   Verify your email address using the link sent to your inbox.
+    *   Once verified, you can [log in to your dashboard](https://dash.cloudflare.com/) to manage your projects.
 
 ---
 

@@ -70,6 +70,30 @@ Once the deployment finishes, Wrangler will print a URL (e.g., `https://my-hello
 
 ---
 
+## Using a Custom Domain
+
+If you want to use your own domain instead of the default `*.workers.dev` URL, follow these steps:
+
+### Method 1: Cloudflare Dashboard (Recommended)
+1. Log in to your [Cloudflare Dashboard](https://dash.cloudflare.com/).
+2. Navigate to **Workers & Pages** and select your worker.
+3. Go to **Settings** > **Triggers**.
+4. Under **Custom Domains**, click **Add Custom Domain**.
+5. Enter your domain/subdomain and click **Add Custom Domain**. Cloudflare will automatically configure the DNS for you.
+
+### Method 2: Via `wrangler.toml`
+You can also define a custom domain directly in your configuration file:
+
+```toml
+[[routes]]
+pattern = "example.com/*"
+custom_domain = true
+```
+
+*Note: Your domain must already be managed by Cloudflare for these methods to work.*
+
+---
+
 ## Project Structure
 
 - `assets/` - Where your static files (HTML, CSS, Images) live.

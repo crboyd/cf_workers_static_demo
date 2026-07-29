@@ -7,5 +7,5 @@ directory = "assets"
 binding = "ASSETS"
 
 [[routes]]
-pattern = "helloworld.nimble.io/*"
+pattern = "helloworld.nimble.io"
 custom_domain = true

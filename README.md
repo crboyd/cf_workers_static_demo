@@ -1,10 +1,10 @@
 # Hello World
 
-A beautiful, modern "Hello World" landing page served via **Cloudflare Workers Assets**. This project demonstrates how to host a static website with a high-performance edge worker.
+A "Hello World" landing page served via **Cloudflare Workers Assets**. This project demonstrates how to host a static website with a high-performance edge worker.
 
 ## What's Inside?
 
-- **A UI**: A modern, responsive landing page with glassmorphism, gradients, and animations.
+- **A UI**: A responsive landing page with glassmorphism, gradients, and animations.
 - **Cloudflare Workers**: A high-performance edge worker to handle requests.
 - **Cloudflare Assets**: A modern way to serve static files directly from the Cloudflare edge.
 
